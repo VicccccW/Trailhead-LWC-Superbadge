@@ -61,9 +61,13 @@ Deploy your changes to production using [packaging](https://developer.salesforce
 
 ### step 2
 
-create a Message Service channel
-create a folder in root folder, name: messageChannels
-create a xml file, name: BoatMessageChannel.messageChannel-meta.xml
+1. create a Message Service channel
+2. create a folder in root folder, name: messageChannels
+3. create a xml file, name: BoatMessageChannel.messageChannel-meta.xml
 
 Reference:
 https://developer.salesforce.com/blogs/2019/10/lightning-message-service-developer-preview.html
+
+### step 3
+
+1. add @AuraEnabled(cacheable=true) to methods in BoatDataService.cls
