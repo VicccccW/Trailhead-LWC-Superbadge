@@ -1,11 +1,20 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "Super_LWC",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "48.0",
+    "packageAliases": {
+        "Super_LWC": "0Ho2w000000PB5HCAW",
+        "Super_LWC@0.1.0-1": "04t2w000005y4HxAAI",
+        "Super_LWC@0.1.0-2": "04t2w000005y7I5AAI",
+        "Super_LWC@0.1.0-3": "04t2w000005y7YgAAI"
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "48.0"
 }

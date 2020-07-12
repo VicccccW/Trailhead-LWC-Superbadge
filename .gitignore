@@ -33,3 +33,8 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
+
+
+force-app/main/default/applications/standard__LightningBolt.app-meta.xml
+force-app/main/default/applications/standard__LightningSales.app-meta.xml
+force-app/main/default/profiles

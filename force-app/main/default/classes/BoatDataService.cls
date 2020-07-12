@@ -114,9 +114,9 @@ public with sharing class BoatDataService {
         Rating__c,
         LastModifiedDate,
         CreatedDate,
-        CreatedBy.Name,
-        CreatedBy.SmallPhotoUrl,
-        CreatedBy.CompanyName
+        CreatedBy.Name
+      // CreatedBy.SmallPhotoUrl,
+      // CreatedBy.CompanyName
       FROM BoatReview__c
       WHERE Boat__c = :boatId
       WITH SECURITY_ENFORCED

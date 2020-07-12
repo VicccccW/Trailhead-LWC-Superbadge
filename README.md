@@ -71,3 +71,11 @@ https://developer.salesforce.com/blogs/2019/10/lightning-message-service-develop
 ### step 3
 
 1. add @AuraEnabled(cacheable=true) to methods in BoatDataService.cls
+
+### step 4
+
+1. due to some unknown bugs, have to use unlock package to deploy what have been developed
+2. follow the instruction and init components, name boatSearch
+3. copy sample html and js into boatSearchForm cmp
+4. in order to pass the challenge, need to use track
+5. no need to use getter method for options
