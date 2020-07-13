@@ -92,3 +92,8 @@ https://developer.salesforce.com/blogs/2019/10/lightning-message-service-develop
 3. (optionally in LWC) set scope of the message channel or message service to the application scope
 4. mark getter as public @api
 5. notice the usage of mapMarker
+
+### step 7
+
+1. after wire a apex function and get result in {error, data}, need to JSON.parse(data)
+2. {location: { Latitude: Longitude, Longitude: Latitude }} <=> {location: { Latitude, Longitude }}
