@@ -84,3 +84,11 @@ https://developer.salesforce.com/blogs/2019/10/lightning-message-service-develop
 
 1. create boatTile component
 2. use api instead of track for selectedBoatId
+
+### step 6
+
+1. import message channel
+2. import service modules from messageService
+3. (optionally in LWC) set scope of the message channel or message service to the application scope
+4. mark getter as public @api
+5. notice the usage of mapMarker
