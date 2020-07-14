@@ -113,3 +113,10 @@ https://developer.salesforce.com/blogs/2019/10/lightning-message-service-develop
 
 1. when working with 3rd party lib, upload static resource, then use { loadStyle, loadScript } modules from 'lightning/platformResourceLoader'
 2. loadScript need work with Promise.all([])
+
+### step 11
+
+1. this.setAttribute("boatId", value);
+2. lightning-record-edit-form has record-id, object-api-name, onsuccess, on submit attribtue
+3. use of HTML label tag
+4. use lightning-record-edit-form to create a record and handle submit and success action, also reset;
