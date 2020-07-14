@@ -23,7 +23,7 @@ export default class BoatsNearMe extends LightningElement {
   wiredBoatsJSON({ error, data }) {
     if (data) {
       this.isLoading = true;
-      this.createMapMarkers(JSON.parse(data));
+      this.createMapMarkers(JSON.parse(data)); // server returns string, JSON.serialize(Database.query(query));
       this.isLoading = false;
     } else if (error) {
       const toastEvent = new ShowToastEvent({

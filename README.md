@@ -95,5 +95,12 @@ https://developer.salesforce.com/blogs/2019/10/lightning-message-service-develop
 
 ### step 7
 
-1. after wire a apex function and get result in {error, data}, need to JSON.parse(data)
+1. after wire a apex function and get result in {error, data}, data is object, not string
 2. {location: { Latitude: Longitude, Longitude: Latitude }} <=> {location: { Latitude, Longitude }}
+
+### step 8
+
+1. wire messageContext in boatSearchResults component for publishing message
+2. <template if:true={boats.data} for:each={boats.data} for:item="boat">
+3. use lightning-datatable and inline editting
+4. use { updateRecord } module from 'lightning/uiRecordApi';
