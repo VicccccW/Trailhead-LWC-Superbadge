@@ -108,3 +108,8 @@ https://developer.salesforce.com/blogs/2019/10/lightning-message-service-develop
 ### step 9
 
 1. use NavigationMixin, export default class BoatSearch extends NavigationMixin(LightningElement){}
+
+### step 10
+
+1. when working with 3rd party lib, upload static resource, then use { loadStyle, loadScript } modules from 'lightning/platformResourceLoader'
+2. loadScript need work with Promise.all([])
