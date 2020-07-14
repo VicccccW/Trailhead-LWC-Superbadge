@@ -104,3 +104,7 @@ https://developer.salesforce.com/blogs/2019/10/lightning-message-service-develop
 2. <template if:true={boats.data} for:each={boats.data} for:item="boat">
 3. use lightning-datatable and inline editting
 4. use { updateRecord } module from 'lightning/uiRecordApi';
+
+### step 9
+
+1. use NavigationMixin, export default class BoatSearch extends NavigationMixin(LightningElement){}
