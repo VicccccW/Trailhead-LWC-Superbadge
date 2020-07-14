@@ -120,3 +120,7 @@ https://developer.salesforce.com/blogs/2019/10/lightning-message-service-develop
 2. lightning-record-edit-form has record-id, object-api-name, onsuccess, on submit attribtue
 3. use of HTML label tag
 4. use lightning-record-edit-form to create a record and handle submit and success action, also reset;
+
+### step 12
+
+1. use <lightning-spinner if:true={isLoading} size="small" alternative-text="Loading" variant="brand">
