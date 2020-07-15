@@ -131,3 +131,7 @@ https://developer.salesforce.com/blogs/2019/10/lightning-message-service-develop
 2. use of custom labels
 3. use of { getRecord, getFieldValue } methods from "lightning/uiRecordApi";
 4. use of <lightning-tabset> and activeTabValue property
+
+### step 14
+
+1. set targetConfigs and properties
