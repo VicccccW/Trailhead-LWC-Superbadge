@@ -124,3 +124,10 @@ https://developer.salesforce.com/blogs/2019/10/lightning-message-service-develop
 ### step 12
 
 1. use <lightning-spinner if:true={isLoading} size="small" alternative-text="Loading" variant="brand">
+
+### step 13
+
+1. use of slot in <lightning-button>
+2. use of custom labels
+3. use of { getRecord, getFieldValue } methods from "lightning/uiRecordApi";
+4. use of <lightning-tabset> and activeTabValue property

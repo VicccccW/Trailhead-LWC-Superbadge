@@ -70,7 +70,7 @@ export default class BoatReviews extends NavigationMixin(LightningElement) {
         objectApiName: 'User',
         recordId: userId,
         actionName: 'view',
-      },
+      }
     });
   }
 }
