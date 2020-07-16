@@ -87,6 +87,30 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <componentInstances>
+            <componentName>boatMap</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>similarBy</name>
+                <value>Length</value>
+            </componentInstanceProperties>
+            <componentName>similarBoats</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>similarBy</name>
+                <value>Type</value>
+            </componentInstanceProperties>
+            <componentName>similarBoats</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>similarBy</name>
+                <value>Price</value>
+            </componentInstanceProperties>
+            <componentName>similarBoats</componentName>
+        </componentInstances>
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>

@@ -139,3 +139,7 @@ https://developer.salesforce.com/blogs/2019/10/lightning-message-service-develop
 ### step 15
 
 1. set lightning app and lightning page
+
+### step 16
+
+1. set lightning record page, adding the similar boat component 3 times
