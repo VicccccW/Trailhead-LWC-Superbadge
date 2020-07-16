@@ -135,3 +135,7 @@ https://developer.salesforce.com/blogs/2019/10/lightning-message-service-develop
 ### step 14
 
 1. set targetConfigs and properties
+
+### step 15
+
+1. set lightning app and lightning page
